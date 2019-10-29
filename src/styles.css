@@ -1,10 +1,11 @@
 body {
-  text-align: center
+  text-align: center;
+  background-image: url("");
   }
   
   img {
-    width: 200px;
-    height: 200px;
+    width: 150px;
+    height: 150px;
   }
   
   .card {
@@ -24,12 +25,5 @@ body {
   @media (max-width:900px){
   .card {
     padding: 3px;
-  }
-  }
-  
-  @media (max-width:850px){
-    img {
-    width: 100px;
-    height: 100px;
   }
   }
